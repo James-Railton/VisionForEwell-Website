@@ -1,0 +1,101 @@
+/*  Top Bar */
+.top-bar{
+    background-color:#7d8e6b;
+    height: 2.8rem;
+    padding: 0.5rem 0;
+}
+.top-bar a {
+    color: white;
+    text-decoration: none;
+}
+/*  nav Bar */
+.navbar-brand img { 
+    height: 4rem;
+}
+#visionforewell{
+    justify-content: center;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 5.5em;
+}
+.navbar {
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;   
+    box-shadow: 0 0.5rem 0.rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.nav-item{
+    padding: 0.5rem;
+}
+.nav-link{
+    color:rgb(0, 0, 0)!important;
+}
+#ewellvillagelogo{
+    height: 7rem;
+    width: 7rem;
+}
+
+/* village */
+#village{
+    height: 85%;
+    width: 85%;
+    padding: 2rem 2rem;
+    display: block;
+    margin: 0 auto;
+}
+
+/* introduction */
+.introductiontoewell{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* colums */
+.ewellevents{
+    background-color: #7d8e6b;
+}
+.ewellplaces{
+    background-color: #7d8e6b;
+}
+.ewellhistory{
+    font: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+.ewelltransport{
+    background-color: #7d8e6b;
+}
+.horizontal-rule{
+    border-top: 20px solid black;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+*{
+    scroll-behavior: none;
+}
+/* leaflet map */
+#map {
+    height: 80vh;
+}
+.mapbackground{
+    background-color: #7d8e6b;
+}
+  
+/*Photos*/
+.photobackground{
+    background-color: #7d8e6b;
+}
+.photos{
+    background-color: black;
+}
+
+/*footer*/
+footer{
+    background-color: #7d8e6b;
+    padding: 1rem 2rem 1rem;
+}
+footer img {
+    height: 7rem;
+    margin: 1rem auto;
+}

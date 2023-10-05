@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<!--leaflet-->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+            integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+            crossorigin=""/>
+			<!---->
+			<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+	        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+            crossorigin=""></script>
+		<!--fotorama api-->
+		<link rel="stylesheet" href="Index.css" />
+		<title>Ewell community</title>
+		<script src="https://kit.fontawesome.com/c6f205bea2.js" crossorigin="anonymous"></script>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+		<!---->
+		<!--Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+		<!----->
+		<!--Favicon icon-->
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<!---->
+	</head>
+	<b>
+		<!--TOP BAR-->
+		<div class="top-bar">
+			<div class="container">
+				<div class="col-12">
+					<p style="text-align: end">
+						<a href="tel: +4401737856637"
+							>have any questions? Call us on 01737856637</a
+						>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--NAV BAR-->
+		<nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+			<div class="container">
+				<a href="Index.html" class="navbar-brand"
+					><img id="ewellvillagelogo" src="ewellvillagelogowhite.png" alt="ewellvillagelogo"
+				/></a>
+				<h1 id="visionforewell">Vision for Ewell</h1>
+				<nav class="navbar navbar-expand-sm bg-dark navbar-light">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navigation">
+						<ul class="navbar-nav bg-light rounded">
+							<li class="nav-item active">
+								<a href="#events" class="nav-link">Events</a>
+							</li>
+							<li class="nav-item">
+								<a href="#intrests" class="nav-link">Interests</a>
+							</li>
+							<li class="nav-item">
+								<a href="#mapofewell" class="nav-link">Map</a>
+							</li>
+							<li class="nav-item">
+								<a href="#photos" class="nav-link">Photos</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</nav>
+		<!--ewell village-->
+		<div class="container justify-content-center">
+			<img src="Ewell.png" alt="image of ewell village" id="village"/>
+		</div>
+		
+		<!--introduction to ewell-->
+		<div class="align-content-center p-5 bg-dark introductiontoewell text-light text-center">
+			<h1 class="text-decoration-underline mb-4">Welcome To Vision for Ewell</h1>
+			<h3>
+				Hello and welcome to Vision for Ewell, a website for the community group of residents who live in the town of Ewell in Surrey. Within this website, 
+				you will find many things related to the village of Ewell; an example of this is local events occurring around Ewell. 
+				Also, on this website, you will find helpful resources such as local transport connections in Ewell. 
+				Furthermore, you can also find out about the history of Ewell and its place within modern London and the United Kingdom.
+			</h3>
+		</div>
+		<!--Main section title-->
+		<div class="container ewellevents rounded mt-5">
+			<div class="row text-center" id="events">
+				<h1 class="text-black pt-4 text-decoration-underline ">What happening in Ewell?</h1>
+				<p class="fw-bold">
+					Find out what is going on around the Ewell area today or in the
+					near future
+				</p>
+			</div>
+			<!--events in ewell-->
+			<div class="row rounded card-group p-2">
+				<div class="card">
+					<img src="ewell village fair.jpeg" alt="" class="card-img-top p-3" height="250" width="250"/>
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Ewell Village Fair</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#EwellVillageFair" aria-expanded="false" aria-controls="EwellVillageFair">
+						Click for more information
+					  </button>
+					<div class="collapse" id="EwellVillageFair">
+						<div class="card card-body bg-dark text-light p-3">
+							<p class="text-center">
+								The Ewell Village Fair is a time that unites the whole village of Ewell. It occurs once a year and is organised by the local church. 
+								At the fair, you can experience the best that the town has to offer: local artisans display their work for sale, local chefs produce wonderful different bites for your enjoyment,
+								and there are plenty of activities for children. Click the button below to find out more about the Ewell Village Fair..
+							</p>
+							<a href="https://www.stmarysewell.com/looking-outwards/ewell-village-fair/" class="btn btn-outline-light btn-md">Click here</a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="ewellvillagebowlingcub.jpeg" alt="" class="card-img-top p-3" height="250" width="250"/>
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Ewell Bowling club open day</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#EwellBowlingClubOpenDay" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="EwellBowlingClubOpenDay">
+						<div class="card card-body bg-dark text-light p-3">
+							<p class="text-center">
+								The Ewell Bowling Club is hosting an introduction to the sport of bowls. In recent times, the number of bowling players has reduced significantly.
+								 However, the Ewell Bowling Club wants to change this. This open day is advisable for all individuals who wish to attend. On this open day, 
+								 you will learn how to play the sport of bowls. You will learn the scoring systems and how to win a game.
+								  The teachers conducting the open day are fully qualified by the International Bowls Association, so you will get the best advice and experience possible.
+							</p>
+							<a href="https://www.epsom-ewell.gov.uk/visitors/whats-on/event/ewell-village-bowling-club-open-day-0" class="btn btn-outline-light btn-md">Click here</a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="wonderewell.png" alt="" class="card-img-top p-3" height="250" width="250"/>
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Bourne Hall - Alice in WonderEwell</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold"type="button" data-bs-toggle="collapse" data-bs-target="#BourneHallAlliceInWonderEwell" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="BourneHallAlliceInWonderEwell">
+						<div class="card card-body bg-dark text-light p-3">
+							<p class="text-center">
+								Hosted at our bourne hall, the pantomime Alice in WonderEwell takes the stage; the performance is hosted by a local dance and performing arts school with performers local to the area.
+								The pantomime is an excellent experience for all of the family. For adults, there is a licenced bar with named drinks; for the kids, there are many activities pre and post-performance. 
+								All of the profits from the ticket sales will go to the Ewell grove primary school to allow them to build a new playground. For more information, click the link below.Hosted at our Bourne Hall, 
+								the pantomime Alice in WonderEwell takes the stage; the performance is hosted by a local dance and performing arts school with performers local to the area. The pantomime is an excellent experience for the whole family.
+								For adults, there is a licensed bar with named drinks; for kids, there are many activities pre- and post-performance. All of the profits from ticket sales will go to Ewell Grove Primary School to allow them to build a new playground. 
+								For more information, click the link below.
+							</p>
+							<a href="https://www.epsom-ewell.gov.uk/visitors/whats-on/event/alice-wonderewell-pantomime-5pm" class="btn btn-outline-light btn-md">Click here</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--history of Ewell-->
+		<div class="ewellhistory bg-dark text-light">
+			<div class="row text-center mt-5 p-5">
+				<h1 class="text-light text-decoration-underline mb-4">History of Ewell village</h1>
+				<p style="font-size: 25px; font-weight: 100;">
+					The village is situated on the spring line between the North Downs chalk and London Clay, with sources that supply the Hogsmill River. 
+					Ewell is located in the northeast part of Surrey, not far from London, and is now part of the Borough of Epsom and Ewell.  
+					In Tudor times, Ewell ended up losing some of its lands when Henry VIII had Nonsuch Palace built in the nearby parish of Cuddington.
+					Nonsuch began construction in 1538. It was constructed in 1556 by the Earl of Arundel and sold to Elizabeth I in 1592 through his son-in-law, 
+					Lord Lumley. It became demolished in 1688 after losing popularity in the seventeenth century. in recent time the excavation uncovered a highly 
+					adorned building. Even though many historical sites was demolished as a consequence of post-World Second World war construction activities, 
+					High St, Spring Street, and Church Street still have a few wonderful old buildings, and that there are numerous public parks around the local area.
+				 </p>
+				<br>
+			</div>
+		</div>
+		</div>
+		<!--Places of interest around ewell-->
+		<div class="container ewellplaces mt-5 rounded">
+			<div class="row text-center" id="intrests">
+				<h1 class="text-dark pt-4 text-decoration-underline">Places of interest Around Ewell</h1>
+				<p>Discover below the many different places of interest around the town of Ewell</p>
+			</div>
+			<div class="row rounded card-group p-2">
+				<div class="card">
+					<img src="ewelljail.jpeg" alt="" class="card-img-top p-3" height="250" width="250"/>
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Ewell Jail</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#EwellJail" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="EwellJail">
+						<div class="card card-body bg-dark text-light p-3">
+							<p>
+							In the village of Ewell, down a small street, a small jail can be found. It is so small that it would not even be considered a jail. 
+							The jail is estimated to have been built in 1777. Although its primary purpose was to hold criminals, it also served as a store for the local fire extinguishing equipment for the local area. 
+							The jail building is made of bricks, which was done to ensure that prisoners could not escape. Click the link below to find out more about Ewell Jail.
+							</p>
+							<a href="https://www.ianvisits.co.uk/articles/ewells-tiny-historic-gaol-11653/" class="btn btn-outline-light btn-md">Click here</a>
+					</div>
+					</div>
+					
+			</div>
+			<div class="card">
+					<img src="fotoramaPhotos/nonsuchpark.jpeg" alt="" class="card-img-top p-3" height="250" width="250"/>
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Nonsuch Park</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#NonsuchPark" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="NonsuchPark">
+						<div class="card card-body bg-dark text-light p-3">
+						<p>
+						Nonsuch Park is a park that is located near Ewell village. In the north of Ewell village, 
+						there are many entrances to the park. The park has plenty of car parking spaces, so people can travel to the park in their families' cars.
+						The park contains paved and unpaved sections for various activities such as football or cricket. Within the park is Nonsuch Mansion, 
+						which can be booked for private occasions in advance. Click the link below to find out more about Nonsuch Park.
+						</p>
+						<a href="https://www.epsom-ewell.gov.uk/residents/venues-sport-and-leisure-facilities/nonsuch-park" class="btn btn-outline-light btn-md">Click here</a>
+					</div>
+				</div>
+					
+			</div>
+			<div class="card">
+					<img src="fotoramaPhotos/bournehall.jpeg" alt="" class="card-img-top p-3" height="250" width="250" />
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Bourne Hall</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#BourneHall" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="BourneHall">
+						<div class="card card-body bg-dark text-light p-3">
+						<p>
+						In the centre of historic Ewell Village in Surrey, Bourne Hall looks down on the headwaters of the Hogsmill River. 
+						The adjacent natural gardens and lake provide an ideal, peaceful, secluded village setting for any social or business function. 
+						This magnificent modern structure with unique architectural interest has been open since 1970. 
+						Bourne Hall strives to provide the perfect venue for you with a variety of different-sized halls and rooms, 
+						exceptional facilities, easy and convenient transportation links, and an experienced venue staff.
+						Bourne Hall does not have an in-house caterer. They have a list of approved suppliers available for any events that may be held there.
+						Click the link below to find out more about Bourne Hall.
+						</p>
+						<a href="https://www.bournehall.org/" class="btn btn-outline-light btn-md">Click here</a>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="horizontal-rule"></div>
+		<!--transport links-->
+		<div class="container rounded ewelltransport">
+		<div class="col-12 text-center mt-5">
+			<h1 class="text-dark pt-4 text-decoration-underline">Transport links within Ewell</h1>
+			<p>
+				Discover below the transport Links located within ewell
+			</p>
+		</div>
+		<div class="row rounded card-group p-2">
+			<div class="card">
+					<img src="National_Rail_logo.svg.png" alt="" class="card-img-top p-3" height="250" width="250"/>
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Train connections</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#TrainConnections" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="TrainConnections">
+						<div class="card card-body bg-dark text-light p-3">
+							<p>
+								Ewell is home to two significant stations with connections that link the village to London. The first station is Ewell West. 
+								This station connects the town of Ewell to Guilford and Dorking in Surrey to London Waterloo in Central London. The trains at Ewell west are served by south western railway and are also in the oyster zone. 
+								The next station that is located within Ewell is Ewell East. This station links Ewell to Dorking, Horsham and Epsom to London Victoria and London Bridge in central London. 
+								Trains from Ewell east are run by southern rail, and the station is also in the London oyster zone.
+								Click the link below to find out more about the stations in Ewell.
+							</p>
+							<a href="https://www.thetrainline.com/" class="btn btn-outline-light btn-md">Click here</a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="buses.jpeg" alt="" class="card-img-top p-3" height="250" width="250" />
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Bus Connections</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#BusConnections" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="BusConnections">
+						<div class="card card-body bg-dark text-light p-3">
+							<p>
+								Ewell is connected to many other locations in London via the TFL bus network; 
+								the TFL bus network allows for fast, safe and quick transport around London. Both stations in Ewell are linked via buses,
+								which means that residents of Ewell can get from the train station to near their homes in comfort. Within Ewell,
+								there are frequent bus connections to nearby Epsom that allow residents to visit whenever they need to quickly. 
+								Buses also go to Sutton, which has many critical infrastructures such as banks. 
+								For more information about buses around Ewell, follow the link below.
+							</p>
+							<a href="https://www.surreycc.gov.uk/roads-and-transport/buses-and-other-transport/bus-timetables/dorking-leatherhead-epsom-and-banstead" class="btn btn-outline-light btn-md">Click here</a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="road.jpeg" alt="" class="card-img-top p-3" height="250" width="250"/>
+					<h4 class="my-4 text-center fw-bold text-decoration-underline">Road Connections</h4>
+					<button class="btn btn-secondary text-center mb-1 p-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#RoadConnections" aria-expanded="false" aria-controls="EwellBowlingClubOpenDay">
+						Click for more information
+					</button>
+					<div class="collapse" id="RoadConnections">
+						<div class="card card-body bg-dark text-light p-3">
+							<p>
+								Ewell has many major road connections to the surrounding areas and to many long-distance locations.
+								Although no motorways pass through the town of Ewell there are many A-roads that pass Ewell. 
+								One road that passes through the town of Ewell is the A240. The A240 links the town of Epsom to Kingston. 
+								These road connections allow for easy access to the town of Kingston which then allows drivers to connect to future destinations such as Heathrow Airport.
+								For more information about road connections in Ewell follow the link below.
+							</p>
+							<a href="https://www.surreycomet.co.uk/li/traffic_and_travel.in.Ewell/" class="btn btn-outline-light btn-md">Click here</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="horizontal-rule"></div>
+		<!--Maps API-->
+		<div class="container mapbackground rounded p-4">
+			<div class="col-12 text-center" id="mapofewell">
+				<h1 class="text-dark pt-2 text-decoration-underline">Map Of Ewell</h1>
+				<p class="fw-bold">
+					below is a interactive map that you can use to find places of interest and locations within ewell
+				</p>
+				<div id="map"></div>
+			</div>
+		</div>
+		<div class="horizontal-rule"></div>
+		<!--fotorama API-->
+		<div class="container photobackground align-content-center rounded pb-4">
+			<div class="text-center">
+				<h1 class="text-dark pt-4 text-decoration-underline">Photos Of Ewell</h1>
+				<p class="fw-bold">
+					below is interactive photo gallery with photos taken around ewell village 
+				</p>
+				<div class="fotorama photos" data-width="100%" data-autoplay="true" data-transition-duration="4000"
+				data-height="70%" data-fit="scaledown" >
+					<img src="fotoramaPhotos/bournehall.jpeg">
+					<img src="fotoramaPhotos/church.jpeg">
+					<img src="fotoramaPhotos/ewell-grove-primary-school.jpeg">
+					<img src="fotoramaPhotos/ewellhighstreet.jpeg">
+					<img src="fotoramaPhotos/ewelljail.jpeg">
+					<img src="fotoramaPhotos/nonsuchpark.jpeg">
+				</div>
+			</div>
+		</div>
+		<!--Footer-->
+		<br>
+		<br>
+		<br>
+		<br>
+		<footer>
+			<div class="container bg-dark rounded">
+				<div class="row text-light text-center py-4 justify-content-center">
+					<div class="col-sm-10 col-md-8 col-lg-6">
+						<img src="ewellvillagelogowhite.png" alt="ewellvillagelogo"></div>
+						<p>
+							On behalf of the Ewell Village community group, we would like to thank you for visiting our website. 
+							We hope you found the information you were looking for. To connect with us on Facebook, please click the button below.
+						</p>
+						<a href="https://www.facebook.com/ewellvillage/"><i class="fa-brands fa-facebook-square fa-2xl"></i></a>
+				</div>
+			</div>
+		</footer>
+		<!--DON'T CODE BELOW-->
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script src="Index.js"></script>
+	</body>
+</html>
